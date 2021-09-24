@@ -13,17 +13,17 @@ void setup(){
 void ghost(){
   noStroke();
   fill(#FF66FF);
-  circle(750, 400, 100);
+  ellipse(750, 400, 100,100);
   rect(700, 410, 100, 70);
-  circle(720, 485, 40);
-  circle(750, 485, 40);
-  circle(780, 485, 40);
+  ellipse(720, 485, 40, 40);
+  ellipse(750, 485, 40,40);
+  ellipse(780, 485, 40,40);
   fill(255);
-  circle(730, 410, 30);
-  circle(770, 410, 30);
+  ellipse(730, 410, 30,30);
+  ellipse(770, 410, 30,30);
   fill(0);
-  circle(720, 410, 10);
-  circle(760, 410, 10);
+  ellipse(720, 410, 10,10);
+  ellipse(760, 410, 10,10);
   stroke(20, 50, 70);
   fill(255);
   noStroke();
@@ -45,11 +45,11 @@ stroke((int)(Math.random()*256),(int)(Math.random()*256),(int)(Math.random()*256
  //pacman
   noStroke();
   fill (#FFFF00);
-  circle(120, 500, 150);
+  ellipse(120, 500, 150, 150);
   fill(20);
   triangle(195, 590, 130, 500, 195, 410);
   fill(0);
-  circle(130, 450, 10);
+  ellipse(130, 450, 10, 10);
   stroke(0,0,255);
   line(0, 200, 1000, 200);
   line(0, 750, 1000, 750);
@@ -64,4 +64,3 @@ void mousePressed(){
  endX = 500;
  endY = 500;
 }
-
